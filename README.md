@@ -1,1 +1,2 @@
-This script models 1D gas flow in a pipe. It uses simple Euler integration to solve for the movement of fluid element cells. It uses a Lagrangian grid where cell sides change as the cell boundaries move.
+This script calculates 1D gas flow in an infinite length vacuum cannon. A projectile (e.g. a ping pong ball) moves with a known trajectory and this code calculates the velocity field of the gas behind it. It uses a Lagrangian grid where cell sizes change as the cell boundaries move. Simple Euler integration is used to accelerate the cell boundaries based on the pressure differential across them.  
+
