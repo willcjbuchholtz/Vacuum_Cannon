@@ -1,0 +1,1 @@
+This script models 1D gas flow in a pipe. It uses simple Euler integration to solve for the movement of fluid element cells. It uses a Lagrangian grid where cell sides change as the cell boundaries move.
